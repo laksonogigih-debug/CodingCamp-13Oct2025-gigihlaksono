@@ -14,39 +14,41 @@
 </head>
 
 <body>
-
+    
+    <div class="style">
     <!-- Header Section -->
-    <header>
-        <h1 class="text-3xl font-bold">My Todo List</h1>
-    </header>
+        <header style="text-align: center;">
+            <h1 class="text-3xl font-bold">My Todo List</h1>
+        </header>
 
-    <!-- Main Content Section -->
-    <main>
-        <section class="todo-app my-4">
-            <input type="text" class="border rounded p-2" id="todo-input" placeholder="Add a new task..." />
-            <input type="date" class="border rounded p-2" id="todo-date" placeholder="Select due date..." />
-            <button class="bg-blue-500 text-white rounded p-2" onclick="addTask();">Add</button>
-        </section>
+        <!-- Main Content Section -->
+        <main class="style-a">
+            <section class="todo-app my-4">
+                <input type="text" class="border rounded p-2" id="todo-input" placeholder="Add a new task..." />
+                <input type="date" class="border rounded p-2" id="todo-date" placeholder="Select due date..." />
+                <button class="bg-blue-500 text-white rounded p-2" onclick="addTask();">Add</button>
+            </section>
 
-        <!-- Action Button Section -->
-         <section class="flex justify-between my-4">
-            <button class="bg-gray-300 rounded p-2" id="filter-btn">Filter</button>
-            <button class="bg-red-500 text-white rounded p-2" onclick="deletedAlltask();">Delete All Task</button>
-         </section>
+            <!-- Action Button Section -->
+            <section class="flex justify-between my-4">
+                <button class="bg-gray-300 rounded p-2" id="filter-btn">Filter</button>
+                <button class="bg-red-500 text-white rounded p-2" onclick="deletedAlltask();">Delete All Task</button>
+            </section>
 
-        <section class="my-4">
-            <h2 class="text-2xl">List of Tasks</h2>
-            <ul id="task-list">
-                <!-- Task will be dynamically added here -->
-                 <li>No tasks added yet</li>
-            </ul>
-        </section>
-    </main>
+            <section class="my-4" id="m4">
+                <h2 class="text-2xl">List of Tasks</h2>
+                <ul id="task-list">
+                    <!-- Task will be dynamically added here -->
+                    <li>No tasks added yet</li>
+                </ul>
+            </section>
+        </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p class="text-sm">&copy; 2025 Gigih Todo List App</p>
-    </footer>
+        <!-- Footer Section -->
+        <footer class="style-f">
+            <p class="text-sm">&copy; 2025 Gigih Todo List App</p>
+        </footer>
+    </div>
 
     <!-- Javascript External File -->
     <script src="js\script.js"></script>

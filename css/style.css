@@ -1,5 +1,39 @@
+* {
+    color: rgb(17, 16, 16);
+}
+
 body {
     justify-items: center;
     height: 100vh;
     align-content: center;
+}
+
+input {
+    background-color: rgb(233, 238, 238);
+}
+
+#m4 {
+    background-color: rgb(233, 238, 238);
+}
+
+.style {
+    padding: 10px;
+    border: 2px solid #a3c0bd;
+    border-radius: 10px;
+    background-color: #cde0e0;
+}
+
+.style-a{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #016B61;
+    border-radius: 10px;
+    background-color: #c3dac4;
+}
+
+.style-f {
+    margin: 10px;
+    border: 2px solid #118b7f;
+    border-radius: 100px;
+    background-color: #85a3a3;
 }
